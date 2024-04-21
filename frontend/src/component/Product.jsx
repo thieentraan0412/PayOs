@@ -4,13 +4,6 @@ import "./style.css";
 import axios from "axios";
 import data from './data.json';
 const Product = () => {
-  // const data = {
-  //   id: 1,
-  //   name: "Bí mật của may mắn",
-  //   price: 10000,
-  //   img: "https://th.bing.com/th/id/R.1e8e7f66cbee6c6fab94d8fada8daf7c?rik=%2fW4nkjVfcECZ8w&pid=ImgRaw&r=0",
-  //   link_data: "https://truyenfull.vn/bi-mat-cua-may-man-good-luck/"
-  // };
 
   const handleadd = (idbook) => {
     const domain = window.location.origin;
@@ -55,12 +48,13 @@ const Product = () => {
           </div>
           <div className="main_descripts">
             <p className="main_descripts">
-              Hai tác giả Hoàng Anh Đức và Tô Thụy Diễm Quyên muốn đưa ra cách
-              tiếp cận nhẹ nhàng và trực quan cho cả các giáo viên lẫn học sinh
-              đối với Học tập qua dự án; sử dụng các dự án để làm những ví dụ đa
-              dạng, đa chiều và gắn liền với thực tế nhất, qua đó giúp người đọc
-              tự xây dựng nên kho tàng kiến thức và kỹ năng của chính bản thân
-              mình.
+            Câu chuyện trong Bí mật của May mắn hấp dẫn như câu chuyện thần thoại với những chân lý thực tế 
+            và vĩnh hằng của cuộc sống, mang lại cho người đọc, niềm tin, hy vọng, những trải nghiệm quý báu, 
+            đồng thời lý giải tại sao một số người luôn gặp được may mắn trong khi những người khác lại không gặp. 
+            Cuốn sách đã mang đến cho độc giả một cái nhìn thú vị và sâu sắc về thay đổi những điều kiện cần thiết
+             để tạo ra và duy trì sự may mắn trong cuộc đời chúng ta. Độc giả khắp mọi nơi đã chú tâm thưởng thức, 
+             chuyền tay cho bè bạn và mỗi người đều mua nhiều bản để tặng cho gia đình, người thân, đồng nghiệp như 
+             những món quà đặc biệt của sự may mắn
             </p>
           </div>
           <div classs="main_info_add">
